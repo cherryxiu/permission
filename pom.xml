@@ -141,12 +141,14 @@
 	    <artifactId>commons-logging</artifactId>
 	    <version>1.1.1</version>
 	</dependency>
+
 		<!--节省getter/setter/toString方法-->
 	  <dependency>
 		  <groupId>org.projectlombok</groupId>
 		  <artifactId>lombok</artifactId>
 		  <version>1.16.12</version>
 	  </dependency>
+
 
 		<!--logback与log4j更快，支持xml，支持更多-->
 	  <dependency>

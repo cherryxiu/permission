@@ -20,6 +20,7 @@ public class UserAction {
 	public String regist(User user){
 		log.info("hello");
 
+		//测试
 		System.out.println("username="+user.getUsername());
 		uService.saveUser(user);
 		return "welcome.jsp";
