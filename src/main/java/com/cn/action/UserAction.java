@@ -18,7 +18,7 @@ public class UserAction {
 	
 	@RequestMapping("/regist")
 	public String regist(User user){
-		//9:40
+		//2018/5/9 9:40
 		log.info("hello");
 
 		//测试
